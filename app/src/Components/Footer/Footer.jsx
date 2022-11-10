@@ -7,7 +7,7 @@ import instagram from '../../assets/social/instagram-white.svg';
 import twitter from '../../assets/social/twitter-white.svg';
 const Footer = () => {
   return (
-    <div className='footerContainer'>
+    <div className="footerContainer">
       <p>Copyrght© 2022 MAMUPE. All Rights Reserved.</p>
       <div className="divSocial">
         <img className="social" src={facebook} alt="facebook" />

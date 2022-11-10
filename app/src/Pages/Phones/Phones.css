@@ -9,6 +9,8 @@
     justify-content: space-evenly;
     align-content: flex-start;
     margin: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     gap: 2rem;
     
 }

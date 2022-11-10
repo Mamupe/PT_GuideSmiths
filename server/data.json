@@ -1,4 +1,35 @@
 {
+    "tablets": [
+        {
+            "id": 0,
+        "name": "iPad Pro 2022 ",
+        "manufacturer": "Apple",
+        "description": "Design-wise, the iPad Pro 2022 is indistinguishable from the iPad Pro 2021 and iPad Pro 2020. This isn’t a negative since its thin bezels and sleek machined aluminum chassis remain as striking as ever.",
+        "color": "black",
+        "price": 799,
+        "imageFront": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092139/Phones/ipad/front_tjwk0d.jpg",
+        "imagePerfil": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092138/Phones/ipad/11spacegray_1_perfil_fntzdt.jpg",
+        "imageBack": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092139/Phones/ipad/ipad_back_kxrvri.jpg",
+        "screen": "11 inch IPS",
+        "processor": "Apple M2",
+        "ram": 8
+        },
+
+        {
+            "id": 1,
+        "name": "Galaxy Tab A7",
+        "manufacturer": "Samsung",
+        "description": "It is a device with a 10.4-inch screen and a simple design that seems to be focused on being a home entertainment center thanks to its four speakers. It weighs just under half a kilogram and will be available in three colors.",
+        "color": "Silver",
+        "price": 859,
+        "imageFront": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092138/Phones/Samsung%20A7%20tab/a7_front_xy2gli.jpg",
+        "imagePerfil": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092138/Phones/Samsung%20A7%20tab/samsung-galaxy-tab-a7_perfil_kvjleo.jpg",
+        "imageBack": "https://res.cloudinary.com/dghnwllrc/image/upload/v1668092138/Phones/Samsung%20A7%20tab/tab-a7_back_cejx0r.png",
+        "screen": "10,4 inch IPS",
+        "processor": "Octa-core ",
+        "ram": 32
+        }
+    ],
     "phones": [
     {
         "id": 0,

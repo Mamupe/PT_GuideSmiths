@@ -25,10 +25,22 @@ const Phone = () => {
     <div className="phoneDetail">
       {phone ? (
         <div className="infoPhone">
-          <h3 className="encabezado">{phone.name}</h3>
-          <img className="front" src={phone.imageFront} alt={phone.name} />
-          <img className="perfil" src={phone.imagePerfil} alt={phone.name} />
-          <img className="back" src={phone.imageBack} alt={phone.name} />
+          <div className="imagesDetail">
+            <img className="front" src={phone.imageFront} alt={phone.name} />
+            <img className="perfil" src={phone.imagePerfil} alt={phone.name} />
+            <img className="back" src={phone.imageBack} alt={phone.name} />
+          </div>
+          <div className="caract">
+            <ul>
+              <li>Name: {phone.name}</li>
+              <li>Description: {phone.description}</li>
+              <li>Manufacturer: {phone.manufacturer}</li>
+              <li>Screen: {phone.screen}</li>
+              <li>Processor: {phone.processor}</li>
+              <li>Memory: {phone.ram}GB Ram</li>
+              <li>Color: {phone.color}</li>
+            </ul>
+          </div>
         </div>
       ) : (
         <div>Not Exists</div>
