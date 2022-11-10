@@ -1,9 +1,14 @@
+.phonePage {
+
+}
+
 .PhonesContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: flex-start;
-    margin: 5rem;
+    margin: 10rem;
     gap: 2rem;
+    
 }

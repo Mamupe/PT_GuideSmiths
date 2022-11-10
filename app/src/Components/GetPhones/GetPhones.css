@@ -5,14 +5,14 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-   
-
+    border-radius: 5px;
+    background-color: white;
     height: 350px;
     width: 220px;
 }
 .phoneImg {
   
-    max-width: 150px;
+    max-width: 100px;
     
   
 }
@@ -46,4 +46,17 @@
 
 .pop > p {
     margin:3rem;
+}
+
+.name {
+    font-size: medium;
+}
+.price {
+    margin-top: -0.8rem;
+    color: crimson;
+}
+
+.preinfo {
+    margin-top: -0.8rem;
+    font-size: small; 
 }

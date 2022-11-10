@@ -2,8 +2,8 @@ import './GetPhones.css';
 
 import { useEffect, useState } from 'react';
 import React from 'react';
-import Popup from 'reactjs-popup';
 import { Link } from 'react-router-dom';
+import Popup from 'reactjs-popup';
 
 export const GetPhones = () => {
   const [phonesList, setPhonesList] = useState([]);
@@ -32,11 +32,17 @@ export const GetPhones = () => {
               <h2>{phone.name}</h2>
               <img className="phoneImg" src={phone.imageFront} alt="Phone image" />
               <p>{phone.description}</p>
-              <Link to={`/phone/${phone.id}`}><button className='moreInfo'>+ Info</button></Link>
+              <Link to={`/phone/${phone.id}`}>
+                <button className="moreInfo">+ Info</button>
+              </Link>
             </div>
           </Popup>
 
-          <h3>{phone.name}</h3>
+          <h3 className="name">{phone.name}</h3>
+          <p className='preinfo'>
+            {phone.screen} {phone.processor} {phone.ram}GB RAM
+          </p>
+          <h3 className="price">{phone.price}$</h3>
         </div>
       ))}
     </>

@@ -6,7 +6,7 @@ import GetPhones from '../../Components/GetPhones/GetPhones';
 
 export const Phones = () => {
   return (
-    <div>
+    <div className="phonePage">
       <div className="PhonesContainer">
         <GetPhones />
       </div>
