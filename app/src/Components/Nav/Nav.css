@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 3rem;
+    background-color: var(--primary);
+}
+
+.PhoneShop{
+    margin-left: 5rem;
+    padding-right: 2rem;
+}
+
+.PhoneShop > a > h2 {
+    color: whitesmoke;
+}
+
+.devices {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 1rem;
+    margin-right: 15rem;
+    
+    
+}
+
+.divPhones {
+    gap: 1rem;
+    padding-right: 5rem;
+    color: whitesmoke;
+}
+
+.divTablets {
+    gap: 1rem;
+    color: whitesmoke; 
+}
