@@ -19,6 +19,7 @@
 
 .popBtn {
     all:unset;
+    cursor:pointer;
 }
           
 .pop {
@@ -29,8 +30,8 @@
     align-items: center;
     height: 300px;
     width: 600px;
-    background-color: rgb(255, 254, 253);
-    opacity: 0.8;
+    background-color: #FCFCFB;
+    opacity: 1;
     
     position: absolute;
     top: 50%;

@@ -32,13 +32,27 @@ const Phone = () => {
           </div>
           <div className="caract">
             <ul>
-              <li>Name: {phone.name}</li>
-              <li>Description: {phone.description}</li>
-              <li>Manufacturer: {phone.manufacturer}</li>
-              <li>Screen: {phone.screen}</li>
-              <li>Processor: {phone.processor}</li>
-              <li>Memory: {phone.ram}GB Ram</li>
-              <li>Color: {phone.color}</li>
+              <li>
+                <strong>Name:</strong> {phone.name}
+              </li>
+              <li>
+                <strong>Description:</strong> {phone.description}
+              </li>
+              <li>
+                <strong>Manufacturer:</strong> {phone.manufacturer}
+              </li>
+              <li>
+                <strong>Screen:</strong> {phone.screen}
+              </li>
+              <li>
+                <strong>Processor:</strong> {phone.processor}
+              </li>
+              <li>
+                <strong>Memory:</strong> {phone.ram}GB Ram
+              </li>
+              <li>
+                <strong>Color:</strong> {phone.color}
+              </li>
             </ul>
           </div>
         </div>

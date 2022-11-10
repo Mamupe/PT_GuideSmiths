@@ -22,13 +22,39 @@ const Tablet = () => {
   }, []);
 
   return (
-    <div className="phoneDetail">
+    <div className="tabletDetail">
       {tablet ? (
-        <div className="infoPhone">
-          <h3 className="encabezado">{tablet.name}</h3>
-          <img className="front" src={tablet.imageFront} alt={tablet.name} />
-          <img className="perfil" src={tablet.imagePerfil} alt={tablet.name} />
-          <img className="back" src={tablet.imageBack} alt={tablet.name} />
+        <div className="infoTablet">
+          <div className="imagesDetail">
+            <img className="front" src={tablet.imageFront} alt={tablet.name} />
+            <img className="perfil" src={tablet.imagePerfil} alt={tablet.name} />
+            <img className="back" src={tablet.imageBack} alt={tablet.name} />
+          </div>
+          <div className="caract">
+            <ul>
+              <li>
+                <strong>Name:</strong> {tablet.name}
+              </li>
+              <li>
+                <strong>Description:</strong> {tablet.description}
+              </li>
+              <li>
+                <strong>Manufacturer:</strong> {tablet.manufacturer}
+              </li>
+              <li>
+                <strong>Screen:</strong> {tablet.screen}
+              </li>
+              <li>
+                <strong>Processor:</strong> {tablet.processor}
+              </li>
+              <li>
+                <strong>Memory:</strong> {tablet.ram}GB Ram
+              </li>
+              <li>
+                <strong>Color:</strong> {tablet.color}
+              </li>
+            </ul>
+          </div>
         </div>
       ) : (
         <div>Not Exists</div>

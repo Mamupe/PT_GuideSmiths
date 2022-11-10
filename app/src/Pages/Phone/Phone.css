@@ -1,0 +1,28 @@
+.phoneDetail {
+    display: flex;
+    justify-content: center;
+}
+
+.infoPhone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.imagesDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+    align-content: center;
+
+}
+
+.imagesDetail > img {
+    min-height: 25rem;
+    width: 14rem;
+    padding: 2rem;
+}
+
+
+
