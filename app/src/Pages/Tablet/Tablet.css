@@ -1,0 +1,37 @@
+.tabletDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoTablet {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagesDetail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    align-content: center;
+
+}
+
+.imagesDetail > img {
+    min-height: 25rem;
+    width: 18rem;
+    padding: 2rem;
+}
+
+.carct {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+

@@ -17,6 +17,10 @@
   
 }
 
+.phoneImg:hover{
+    opacity: 0.8;
+}
+
 .popBtn {
     all:unset;
     cursor:pointer;

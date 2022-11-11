@@ -53,6 +53,9 @@ const Tablet = () => {
               <li>
                 <strong>Color:</strong> {tablet.color}
               </li>
+              <li>
+                <strong>Price:</strong> {tablet.price} $
+              </li>
             </ul>
           </div>
         </div>

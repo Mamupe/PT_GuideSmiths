@@ -3,29 +3,41 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    height: 75vh;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
 }
 
 
 .homePhone {
     margin-top: 3rem;
-    height: 25rem;
-    width: 12rem;
+    margin-bottom: 2rem;
+    height: 17rem;
+    width: 8rem;
     padding: 2rem;
 }
 .homePhone > img {
-    height: 25rem;
-    width: 12rem;
+    height: 17rem;
+    width: 8rem;
 }
+.homePhone > img:hover{
+    opacity: 0.8;
+}
+
 
 .homeTablet {
     margin-top: 3rem;
-    height: 25rem;
-    width: 32rem;
+    margin-bottom: 2rem;
+    height: 17rem;
+    width: 24rem;
     padding: 2rem;
 }
 
 .homeTablet > img {
-    height: 25rem;
-    width: 35rem;
+    height: 17rem;
+    width: 24rem;
+}
+
+.homeTablet > img:hover {
+    opacity: 0.8;
 }

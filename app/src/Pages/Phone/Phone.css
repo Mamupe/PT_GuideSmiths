@@ -1,17 +1,20 @@
 .phoneDetail {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .infoPhone {
     display: flex;
+    
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 }
 
 .imagesDetail {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:flex-end;
     align-content: center;
@@ -22,6 +25,12 @@
     min-height: 25rem;
     width: 14rem;
     padding: 2rem;
+}
+
+.carct {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 

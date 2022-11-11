@@ -53,6 +53,9 @@ const Phone = () => {
               <li>
                 <strong>Color:</strong> {phone.color}
               </li>
+              <li>
+                <strong>Price:</strong> {phone.price} $
+              </li>
             </ul>
           </div>
         </div>
