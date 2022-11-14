@@ -23,6 +23,7 @@ const Tablet = () => {
 
   return (
     <div className="tabletDetail">
+      <h2>{tablet.name}</h2>
       {tablet ? (
         <div className="infoTablet">
           <div className="imagesDetail">

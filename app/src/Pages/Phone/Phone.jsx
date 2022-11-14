@@ -23,6 +23,7 @@ const Phone = () => {
 
   return (
     <div className="phoneDetail">
+      <h2>{phone.name}</h2>
       {phone ? (
         <div className="infoPhone">
           <div className="imagesDetail">

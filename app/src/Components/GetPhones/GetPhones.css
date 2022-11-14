@@ -69,4 +69,11 @@
 .moreInfo {
     position: relative;
     top:10rem;
+    color: whitesmoke;
+    background-color: var(--secondary);
+    border-radius: 2px;
+    border: solid var(--primary) 1px;
+    height: 30px;
+    width: 50px;
+    cursor:pointer;
 }

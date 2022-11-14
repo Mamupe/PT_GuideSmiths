@@ -68,8 +68,15 @@
 .preinfo {
     margin-top: -0.8rem;
     font-size: small; 
+    
 }
 
 .moreInfo {
     margin: 2rem;
+    background-color: var(--secondary);
+    border-radius: 2px;
+    border: solid var(--primary) 1px;
+    height: 30px;
+    width: 50px;
+    cursor:pointer;
 }

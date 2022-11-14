@@ -39,7 +39,7 @@ export const GetPhones = () => {
           </Popup>
 
           <h3 className="name">{phone.name}</h3>
-          <p className='preinfo'>
+          <p className="preinfo">
             {phone.screen} {phone.processor} {phone.ram}GB RAM
           </p>
           <h3 className="price">{phone.price}$</h3>
