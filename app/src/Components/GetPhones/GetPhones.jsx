@@ -10,7 +10,7 @@ export const GetPhones = () => {
 
   useEffect(() => {
     (async () => {
-      let data = await fetch('http://localhost:8080/phones').then((res) => res.json());
+      let data = await fetch('https://phoneshop-server-ftmn.onrender.com/phones').then((res) => res.json());
       setPhonesList(data);
     })();
   }, []);
@@ -22,7 +22,7 @@ export const GetPhones = () => {
           <Popup
             trigger={
               <button className="popBtn">
-                <img className="phoneImg" src={phone.imageFront} alt="Phone image" />
+                <img className="phoneImg" src={phone.imageFront} alt="Phone pic" />
               </button>
             }
             modal
@@ -30,7 +30,7 @@ export const GetPhones = () => {
           >
             <div className="pop">
               <h2>{phone.name}</h2>
-              <img className="phoneImg" src={phone.imageFront} alt="Phone image" />
+              <img className="phoneImg" src={phone.imageFront} alt="Phone pic" />
               <p>{phone.description}</p>
               <Link to={`/phone/${phone.id}`}>
                 <button className="moreInfo">+ Info</button>

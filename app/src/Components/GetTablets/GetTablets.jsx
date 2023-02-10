@@ -10,7 +10,7 @@ export const GetTablets = () => {
 
   useEffect(() => {
     (async () => {
-      let data = await fetch('http://localhost:8080/tablets').then((res) => res.json());
+      let data = await fetch('https://phoneshop-server-ftmn.onrender.com/tablets').then((res) => res.json());
       setTabletsList(data);
     })();
   }, []);
@@ -22,7 +22,7 @@ export const GetTablets = () => {
           <Popup
             trigger={
               <button className="popBtn">
-                <img className="tabletImg" src={tablet.imageFront} alt="tablet image" />
+                <img className="tabletImg" src={tablet.imageFront} alt="tablet pic" />
               </button>
             }
             modal
@@ -30,7 +30,7 @@ export const GetTablets = () => {
           >
             <div className="pop">
               <h2>{tablet.name}</h2>
-              <img className="tabletImg" src={tablet.imageFront} alt="tablet image" />
+              <img className="tabletImg" src={tablet.imageFront} alt="tablet pic" />
               <p>{tablet.description}</p>
               <Link to={`/tablet/${tablet.id}`}>
                 <button className="moreInfo">+ Info</button>
